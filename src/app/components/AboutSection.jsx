@@ -9,10 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Javascript</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
         <li>Python</li>
       </ul>
     ),
@@ -36,6 +38,7 @@ const TAB_DATA = [
         <li>AWS Cloud Certificate</li>
         <li>JavaScript</li>
         <li>Python Certificate</li>
+        <li>100x Cohort 2.0 (Ongoing)</li>
       </ul>
     ),
   },
@@ -64,10 +67,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
-            repellendus, voluptate distinctio aliquam eum soluta maiores
-            perspiciatis quidem consectetur facilis at natus quas porro
-            excepturi adipisci veritatis quos ipsa! Laboriosam!
+            I am a freelancer/Full Stack Developer who is passionate about
+            seamless interface building for best user optimisation. Apart from
+            being a developing workaholic, I am equally passionate about
+            photography, videography, cinematography, photo editing with an
+            added interest in music and learning instruments. Theatre, cinematic
+            media and decoding Marvel - sequences are where the heart lies,
+            including tinkering with languages, culture and media.
           </p>
           <div className="flex flex-row justify-start mt-8 ">
             <TabButton

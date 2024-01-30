@@ -23,7 +23,7 @@ const HeroSection = () => {
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "Snehasish Dey",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1000,
                 "a Full Stack Developer",
                 1000,
                 "a-Guy-who-loves-chai.tsx",
@@ -39,10 +39,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 xl:text-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque in
-            enim quam obcaecati quos quas ut cumque vero, quisquam fuga dolor
-            corrupti, consequatur doloribus tempore officia tenetur dicta rem
-            nulla?
+            I am Snehasish, a Full Stack Developer with a passion for anything
+            and everything technical. My priority lies in providing clients with
+            the best service that is at par with their expectations. Time
+            Management and discipline are the most crucial aspects of my work
+            ethic, and being compatible with various kinds of people is next.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
