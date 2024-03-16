@@ -55,6 +55,16 @@ const projectsData = [
     gitUrl: "https://github.com/Pagla-Dasu/google-clone",
     previewUrl: "https://google-clone-pagla-dasu.vercel.app/",
   },
+  {
+    id: 6,
+    title: "Boards",
+    description:
+      "A Story Boarding web app that allows the user to jot their ideas and collaborate with other people.",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Pagla-Dasu/Boards",
+    previewUrl: "https://boards-pagladasu.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -67,7 +77,7 @@ const ProjectsSection = () => {
   };
 
   const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
+    project.tag.includes(tag),
   );
 
   const cardVariants = {
